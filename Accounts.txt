@@ -1,1 +1,4 @@
-Nasko, Gosho, Ivan
+Nasko
+Gosho
+Ivan
+Pesho
