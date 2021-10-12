@@ -8,12 +8,11 @@ class Account:
         self.balance = balance
         self.account_id = account_id
     
-
     def get_user_id(self):
         with open('Accounts.txt', 'r') as file:
             accounts_list = file.read()
             list = accounts_list.split(', ')
-        print(user_list)
+            user_list = list
         for num in user_list:
             if num == self.account_id:
                 print(f"Your ID is {self.account_id}")
